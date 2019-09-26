@@ -39,9 +39,6 @@ public class TicTacToeView {
         System.out.println("Enter the row and column numbers, separated by a space: ");
         row = keyboard.nextInt();
         col = keyboard.nextInt();
-            
-        
-        
 
         TicTacToeMove playerMove = new TicTacToeMove(row,col);
        
